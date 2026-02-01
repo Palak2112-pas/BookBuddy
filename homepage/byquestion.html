@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>By Questions</title>
+  <link rel="stylesheet" href="byquestion.css">
+</head>
+<body>
+     <div class="navbar">
+    <span class="logo"> <img id="logo" src="logo.png"> Book Haven </span> 
+    <a href="homepage.html" class="back">Back</a>
+  </div>
+
+<div class="container">
+    <img id="girl" src="question.png">
+  <h1>Find Your Perfect Book 📚</h1>
+  <p>By just answering this below 3 questions !!!</p>
+
+  <!-- Question 1 -->
+  <div class="question">    
+    <h3>1. What genre do you enjoy?</h3>
+    <select id="genre">
+      <option value="">Select genre</option>
+      <option value="heartfelt">Heartfelt</option>
+      <option value="thriller">Thriller</option>
+      <option value="motivation">Motivation</option>
+      <option value="horror">Horror</option>
+    </select>
+  </div>
+
+  <!-- Question 2 -->
+  <div class="question">
+    <h3>2. How long do you want the book?</h3>
+    <select id="length">
+      <option value="">Select length</option>
+      <option value="short">Short</option>
+      <option value="medium">Medium</option>
+      <option value="long">Long</option>
+    </select>
+  </div>
+
+  <!-- Question 3 -->
+  <div class="question">
+    <h3>3. How often do you read books?</h3>
+    <select id="reader">
+      <option value="">Select option</option>
+      <option value="beginner">Beginner</option>
+      <option value="occasional">Occasional</option>
+      <option value="regular">Regular</option>
+    </select>
+  </div>
+
+  <button id="recommendBtn">Recommend Books</button>
+  <!-- Recommendation Result -->
+  <div id="result"></div>
+  </div>
+
+  <script src="byquestion.js"></script>
+</body>
+</html>

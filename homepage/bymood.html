@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>By Mood</title>
+  <link rel="stylesheet" href="bymood.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <span class="logo"> <img id="logo" src="logo.png"> Book Haven </span> 
+    <a href="homepage.html" class="back">Back</a>
+  </div>
+
+  <!-- Name Input -->
+  <div class="name-box">
+     <p id="userName">Enter your name :</p>
+    <input id="name" type="text" placeholder="enter your name...">
+    <button id="submit">Submit</button>
+  </div>
+
+  <!-- Mood Section -->
+  <section id="mood-section">
+    <h1>How are you feeling today?</h1>
+
+    <div class="mood-cards">
+      <div class="mood-card" data-mood="happy">Happy 😊</div>
+      <div class="mood-card" data-mood="relaxed">Relaxed 😌</div>
+      <div class="mood-card" data-mood="sad">Sad 💔</div>
+      <div class="mood-card" data-mood="heartfelt">Heartfelt 💖</div>
+      <div class="mood-card" data-mood="thoughtful">Thoughtful 🧠</div>
+      <div class="mood-card" data-mood="thrilling">Thrilling 😱</div>
+      <div class="mood-card" data-mood="motivated">Motivated 🚀</div>
+      <div class="mood-card" data-mood="horror">Horror ☠️</div>
+    </div>
+  </section>
+
+  <!-- Recommendation -->
+  <section id="recommendation">
+    <h2>Recommended Books 📚</h2>
+    <div id="book-list"></div>
+  </section>
+
+  <script src="bymood.js"></script>
+</body>
+</html>
