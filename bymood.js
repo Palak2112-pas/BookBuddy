@@ -13,11 +13,6 @@ const books = [
 { title: "Fourth Wing", author: "Rebecca Yarros", mood: "heartfelt", img: "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Fourth_Wing_Cover_Art.jpeg/250px-Fourth_Wing_Cover_Art.jpeg", rating: 4.5 },
 ];
 
-document.getElementById("submit").onclick = function () {
-  const name = document.getElementById("name").value;
-  alert("Hello " + name + " 👋 Welcome to Book Haven!");
-};
-
 const moodCards = document.querySelectorAll(".mood-card");
 const bookList = document.getElementById("book-list");
 
