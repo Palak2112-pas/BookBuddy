@@ -1,14 +1,15 @@
+
 body {
   font-family: Arial, sans-serif;
-  background: sienna;
+  background: linear-gradient(to bottom, #f4b6b6, #fbe3dc);
   text-align: center;
-  margin: 0;          
-  padding: 0;         
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   margin-bottom: 5px;
-  color: #432818;
+  color: #3a1f1f;
 }
 
 .question {
@@ -18,20 +19,22 @@ h1 {
 select {
   padding: 8px;
   width: 220px;
-  border-radius: 6px;
+  border-radius: 8px;
+  border: 1px solid #e3bcbc;
+  background: #fffaf7;
 }
 
 button {
-  padding: 10px 20px;
-  background: #432818;
+  padding: 10px 22px;
+  background: #3a1f1f;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #522409;
+  background: #4a2626;
 }
 
 #result {
@@ -44,38 +47,36 @@ button:hover {
 
 .book-card {
   width: 200px;
-  background: white;
+  background: #fffdfb;
   padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
 }
 
 .book-card img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 10px;
 }
-  .container {
-  background-color: burlywood;
+
+.container {
+  background: #fde2dd;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  margin: 20px auto;     
-  padding: 30px;        
-  max-width: 1200px;     
-  border-radius: 16px;  
+  margin: 25px auto;
+  padding: 32px;
+  max-width: 1200px;
+  border-radius: 24px;
+  border: 2px solid #9c4c4c;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
-
-#result{
-  align-self: flex-start; 
+#result {
+  align-self: flex-start;
   margin-top: 0;
   position: absolute;
-   top: 100px;      
-  right: 80px;   
-}
-
-.container {
-  position: relative;
+  top: 100px;
+  right: 80px;
 }
 
 .container > *:not(#result) {
@@ -88,40 +89,38 @@ button:hover {
   position: absolute;
   left: 40px;
   top: 100px;
-
   width: 350px;
   max-height: 420px;
-
   object-fit: cover;
-  border-radius: 20px;
-  margin: auto;
+  border-radius: 24px;
 }
-/* Navbar */
-  .navbar {
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 40px;
-  background-color: #FFFDF9;
-  border-bottom: 2px solid #ddd;
+  background-color: #fff7f4;
+  border-bottom: 1px solid #e6cfcf;
   width: 100%;
   box-sizing: border-box;
 }
 
 .back {
   text-decoration: none;
-  color:black;
+  color: #3a1f1f;
 }
 
 .logo {
-  display: flex;           
-  align-items: center;     
-  gap: 8px;                
-  font-size: 20px;         
-  font-weight: bold;      
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3a1f1f;
 }
 
 #logo {
-  width: 24px;             
-  height: 24px;            
+  width: 24px;
+  height: 24px;
 }
